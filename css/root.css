@@ -1,0 +1,25 @@
+.todos {
+
+}
+
+ul {
+  margin: 0px;
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+li:hover {
+  background: white;
+}
+li {
+  color: black;
+  margin: 5px 0;
+  width: 94%;
+  font-size: 20px;
+  border: 3px solid AntiqueWhite;
+  border-radius: 10px;
+  background: AntiqueWhite;
+  transition: 0.3s;
+  max-width: 94%;
+  overflow-wrap: break-word;
+}
